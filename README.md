@@ -56,7 +56,7 @@ Describe any challenges encountered while building the app.
 Walkthrough 1:
 <img src = "flixsterapp_walkthrough.gif" width=250><br>
 Walkthrough 2:
-<img src="flixsterapp_walkthrough2.gif" width=120><br>
+<img src="flixsterapp_walkthrough2.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
