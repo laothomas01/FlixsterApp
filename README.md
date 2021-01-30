@@ -58,7 +58,8 @@ Describe any challenges encountered while building the app.
 
 
 ### Notes
-Describe any challenges encountered while building the app.
+Challenges I encountered:
+-will update later
 
 ### Open-source libraries used
 
