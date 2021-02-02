@@ -78,10 +78,11 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             {
                 imageURL = movie.getPosterPath();
             }
-                //imageURL = backdrop image
-            //else imageURL = poster image
-            Glide.with(context).load(imageURL).into(ivPoster);
-
+                    Glide.with(context)//pass activity
+                    .load(imageURL)//image URL
+                   .placeholder(R.drawable.loader)
+                            .error(R.drawable.error)
+                     .into(ivPoster);
 
         }
     }

@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.bumptech.glide.Glide;
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import com.example.flixsterapp.adapters.MovieAdapter;
@@ -39,8 +40,11 @@ public class MainActivity extends AppCompatActivity {
         //Set Layout Manager on the recycler view
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
 
+
+
         AsyncHttpClient client = new AsyncHttpClient();
         //get request on the URL
+
         client.get(NOW_PLAYING_URL, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int i, Headers headers, JSON json) {
@@ -49,10 +53,12 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     //an array of JSON objects from our API response
                     JSONArray results =  jsonObject.getJSONArray("results");
-                    Log.i(TAG,"Results" + results.toString());
+//                    Log.i(TAG,"Results" + results.toString());
                     //a way to store the data inside the results Array
+
                     movies.addAll(Movie.fromJsonArray(results));
                     movieAdapter.notifyDataSetChanged();
+
                     Log.i(TAG,"Movies:" + movies.size());
                 } catch (JSONException e) {
                     Log.e(TAG,"Hit json exception",e);
