@@ -60,6 +60,7 @@ Challenges I encountered:
  - understanding that what match_parent and wrap_content is
  - understanding the structure of the project: model, views, and adapter
  - how to parse data from JSON objects
+
 What needs to be implemented:
  - 5 star rating system
  - better UI design
