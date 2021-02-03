@@ -58,7 +58,8 @@ Describe any challenges encountered while building the app.
 ### Notes
 Challenges I encountered:
  -understanding that what match_parent and wrap_content is
- What needs to be implemented:
+ 
+What needs to be implemented:
  -5 star rating system
  -better UI design
  -exception handling
