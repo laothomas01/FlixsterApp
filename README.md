@@ -60,9 +60,9 @@ Challenges I encountered:
  -understanding that what match_parent and wrap_content is
  
 What needs to be implemented:
- -5 star rating system
- -better UI design
- -exception handling
+ - 5 star rating system
+ - better UI design
+ - exception handling
 ### Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
