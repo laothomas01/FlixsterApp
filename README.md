@@ -57,8 +57,9 @@ Describe any challenges encountered while building the app.
  <img src="flixsterapp_walkthrough2.gif" width=800><br>
 ### Notes
 Challenges I encountered:
- -understanding that what match_parent and wrap_content is
- 
+ - understanding that what match_parent and wrap_content is
+ - understanding the structure of the project: model, views, and adapter
+ - how to parse data from JSON objects
 What needs to be implemented:
  - 5 star rating system
  - better UI design
