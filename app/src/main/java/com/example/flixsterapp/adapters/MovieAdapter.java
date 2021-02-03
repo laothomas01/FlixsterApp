@@ -17,6 +17,7 @@ import com.example.flixsterapp.models.Movie;
 
 import java.util.List;
 
+//create the basic adapter extending RecyclerView.Adapter
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
     //what is this?
     Context context;
@@ -32,8 +33,10 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        //inflate the custom layout
         View movieView = LayoutInflater.from(context).inflate(R.layout.item_movie,parent,false);
         Log.d("MovieAdapter","onCreateViewHolder");
+        //return a new holder instance
         return new ViewHolder(movieView);
     }
 
@@ -54,6 +57,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         return movies.size();
     }
 
+    //provide a direct reference to each of the views within a data item
+    //used to cache the views within the item layout for fast access
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvTitle;
         TextView tvOverview;
@@ -83,7 +88,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                    .placeholder(R.drawable.loader)
                             .error(R.drawable.error)
                      .into(ivPoster);
-
         }
     }
 }
