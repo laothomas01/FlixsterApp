@@ -65,6 +65,7 @@ What needs to be implemented:
  - 5 star rating system
  - better UI design
  - exception handling
+ -make action bar look better
 ### Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
