@@ -23,9 +23,9 @@
 <img src="21-02-07-20-01-44.GIF" width=250><br>
 
 ### Notes
--my Android Studio was slow and was crashing due to response errors from my swipe motions.
--the YouTube player initailization was not working
--app needs lots of improvements
+- my Android Studio was slow and was crashing due to response errors from my swipe motions.
+- the YouTube player initailization was not working
+- app needs lots of improvements
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
